@@ -1,12 +1,14 @@
 import tkinter as tk
-from tkinter import filedialog, ttk
 import pygame
 import os
-from PIL import Image, ImageTk, ImageDraw, ImageFont
-import mutagen
-from mutagen.mp3 import MP3
 import io
 import random
+
+from tkinter import filedialog, ttk
+from PIL import Image, ImageTk, ImageDraw, ImageFont
+from mutagen.mp3 import MP3
+
+
 
 class MP3Player:
     def __init__(self, root):
